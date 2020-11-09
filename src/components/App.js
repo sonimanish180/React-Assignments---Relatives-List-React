@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div id="main">
         {/* Do not remove the main div */}
-        <ol key="index">
+        <ol key="relativeList">
           {relativeList.map((relative) => (
             <li key={relative.key}>{relative.name}</li>
           ))}
